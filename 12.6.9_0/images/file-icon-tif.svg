@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Page with curl small Copy 30</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,0 L21.3232233,0 C23.2562199,0 25,1.74378007 25,3.6767767 L25,10 L15,0 Z" id="path-1"></path>
+        <filter x="-20.0%" y="-30.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0967221467 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="File-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-346.000000, -434.000000)">
+            <g id="Page-with-curl-small-Copy-30" transform="translate(346.000000, 434.000000)">
+                <path d="M14.7928932,0.5 L3.5,0.5 C1.84314575,0.5 0.5,1.84314575 0.5,3.5 L0.5,26.5 C0.5,28.1568542 1.84314575,29.5 3.5,29.5 L21.5,29.5 C23.1568542,29.5 24.5,28.1568542 24.5,26.5 L24.5,10.2071068 L14.7928932,0.5 Z" id="page" stroke="#30BEC3" fill="#FFFFFF"></path>
+                <g id="curl" transform="translate(20.000000, 5.000000) scale(-1, -1) translate(-20.000000, -5.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#118387" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M9.5859375,19 L8.375,19 L8.375,14.296875 L6.82421875,14.296875 L6.82421875,13.2890625 L11.1367188,13.2890625 L11.1367188,14.296875 L9.5859375,14.296875 L9.5859375,19 Z M12.015625,19 L12.015625,13.2890625 L13.2265625,13.2890625 L13.2265625,19 L12.015625,19 Z M15.8554688,19 L14.6640625,19 L14.6640625,13.2890625 L17.9375,13.2890625 L17.9375,14.28125 L15.8554688,14.28125 L15.8554688,15.7539062 L17.7929688,15.7539062 L17.7929688,16.7421875 L15.8554688,16.7421875 L15.8554688,19 Z" id="TIF" fill="#30BEC3" fill-rule="nonzero"></path>
+            </g>
+            <g id="Slices" transform="translate(186.000000, 384.000000)"></g>
+        </g>
+    </g>
+</svg>

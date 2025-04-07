@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "驚くほど簡単にGmail のメールを保護し制御することが可能になります。"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Virtru のメール保護"
+   }
+}

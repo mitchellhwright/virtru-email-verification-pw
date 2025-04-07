@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Page with curl small Copy 28</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,0 L21.3232233,0 C23.2562199,0 25,1.74378007 25,3.6767767 L25,10 L15,0 Z" id="path-1"></path>
+        <filter x="-20.0%" y="-30.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0967221467 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="File-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-426.000000, -434.000000)">
+            <g id="Page-with-curl-small-Copy-28" transform="translate(426.000000, 434.000000)">
+                <path d="M14.7928932,0.5 L3.5,0.5 C1.84314575,0.5 0.5,1.84314575 0.5,3.5 L0.5,26.5 C0.5,28.1568542 1.84314575,29.5 3.5,29.5 L21.5,29.5 C23.1568542,29.5 24.5,28.1568542 24.5,26.5 L24.5,10.2071068 L14.7928932,0.5 Z" id="page" stroke="#B1B8C4" fill="#FFFFFF"></path>
+                <g id="curl" transform="translate(20.000000, 5.000000) scale(-1, -1) translate(-20.000000, -5.000000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#767D92" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M8.12109375,19 L6.91015625,19 L6.91015625,14.296875 L5.359375,14.296875 L5.359375,13.2890625 L9.671875,13.2890625 L9.671875,14.296875 L8.12109375,14.296875 L8.12109375,19 Z M15.1679688,19 L13.7851562,19 L12.4570312,16.8398438 L11.1289062,19 L9.83203125,19 L11.7265625,16.0546875 L9.953125,13.2890625 L11.2890625,13.2890625 L12.5195312,15.34375 L13.7265625,13.2890625 L15.03125,13.2890625 L13.2382812,16.1210938 L15.1679688,19 Z M18.0898438,19 L16.8789062,19 L16.8789062,14.296875 L15.328125,14.296875 L15.328125,13.2890625 L19.640625,13.2890625 L19.640625,14.296875 L18.0898438,14.296875 L18.0898438,19 Z" id="TXT" fill="#B1B8C4" fill-rule="nonzero"></path>
+            </g>
+            <g id="Slices" transform="translate(186.000000, 384.000000)"></g>
+        </g>
+    </g>
+</svg>

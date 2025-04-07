@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Överraskande enkelt e-postskydd och kontroll för Gmail."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Virtru e-postskydd"
+   }
+}

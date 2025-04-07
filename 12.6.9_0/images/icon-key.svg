@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg fill="#004987" width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon Key</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g  id="Read" stroke="none" stroke-width="1" fill-rule="evenodd" opacity="0.849999964">
+        <g id="Read---Decrypted-with-CKS-indicator-step-2-Copy" transform="translate(-571.000000, -215.000000)">
+            <g id="Group" transform="translate(563.000000, 212.000000)">
+                <g id="Group-Copy">
+                    <path d="M11.6987273,3 C13.8527273,3 15.4290909,4.59654545 15.4290909,6.67745455 C15.4290909,7.25836364 15.2654545,7.64509091 15.2654545,7.64509091 L20,12.2901818 L20,14.8063636 L19.6809091,15 L17.3447273,15 L17.0181388,13.9907838 L17.0181388,13.0647273 L16.5658182,12.7325455 L15.398,13.0647273 L15.0085455,12.560279 L15.0085455,11.0100212 L14.8138182,10.9352727 L13.0329649,11.0100212 C13.0329649,11.0100212 13.2755784,10.2640473 12.9652148,9.95586544 L11.6987273,10.3549091 C9.55727273,10.3549091 8,8.80636364 8,6.67745455 C8,4.58072727 9.55727273,3 11.6987273,3 Z M11.00005,6.00005 L11.00005,7.00006667 L12.0000667,7.00006667 L12.0000667,6.00005 L11.00005,6.00005 Z" id="key-icon"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

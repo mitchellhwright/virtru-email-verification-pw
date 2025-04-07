@@ -1,0 +1,10 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store.",
+      "message": "Surprisingly easy email protection and control for Gmail."
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store.",
+      "message": "Virtru Email Protection"
+   }
+}

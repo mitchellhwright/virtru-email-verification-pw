@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="30px" viewBox="0 0 25 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Virtru icons/Document Icon/Model Copy 36</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,0 L21.3232233,0 C23.2562199,0 25,1.74378007 25,3.6767767 L25,10 L15,0 Z" id="path-1"></path>
+        <filter x="-20.0%" y="-30.0%" width="140.0%" height="140.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="-1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0967221467 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M8.90429688,19 L7.52929688,14.5195312 L7.49414062,14.5195312 C7.54362004,15.4309941 7.56835938,16.039061 7.56835938,16.34375 L7.56835938,19 L6.48632812,19 L6.48632812,13.2890625 L8.13476562,13.2890625 L9.48632812,17.65625 L9.50976562,17.65625 L10.9433594,13.2890625 L12.5917969,13.2890625 L12.5917969,19 L11.4628906,19 L11.4628906,16.296875 C11.4628906,16.1692702 11.4648437,16.0221362 11.46875,15.8554688 C11.4726563,15.6888013 11.4902342,15.2460973 11.5214844,14.5273438 L11.4863281,14.5273438 L10.0136719,19 L8.90429688,19 Z M18.7675781,16.0898438 C18.7675781,17.0299526 18.5000027,17.7499975 17.9648438,18.25 C17.4296848,18.7500025 16.6569061,19 15.6464844,19 L14.0292969,19 L14.0292969,13.2890625 L15.8222656,13.2890625 C16.754562,13.2890625 17.478513,13.5351538 17.9941406,14.0273438 C18.5097682,14.5195337 18.7675781,15.2070268 18.7675781,16.0898438 Z M17.5097656,16.1210938 C17.5097656,14.8945251 16.9681044,14.28125 15.8847656,14.28125 L15.2402344,14.28125 L15.2402344,18 L15.7597656,18 C16.9264381,18 17.5097656,17.3737042 17.5097656,16.1210938 Z" id="path-3"></path>
+    </defs>
+    <g id="File-Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Individual-Chips" transform="translate(-137.000000, -337.000000)">
+            <g id="col-1-flattened" transform="translate(137.000000, 57.000000)">
+                <g id="Virtru-icons/Document-Icon/Model-Copy-23" transform="translate(0.000000, 280.000000)">
+                    <path d="M14.7928932,0.5 L3.5,0.5 C1.84314575,0.5 0.5,1.84314575 0.5,3.5 L0.5,26.5 C0.5,28.1568542 1.84314575,29.5 3.5,29.5 L21.5,29.5 C23.1568542,29.5 24.5,28.1568542 24.5,26.5 L24.5,10.2071068 L14.7928932,0.5 Z" id="page" stroke="#B1B8C4" fill="#FFFFFF"></path>
+                    <g id="curl" transform="translate(20.000000, 5.000000) scale(-1, -1) translate(-20.000000, -5.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#767D92" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="File-Icon-Contents">
+                        <g id="Text-Color">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="MD" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-3"></use>
+                            <rect fill="#B1B8C4" mask="url(#mask-4)" x="0" y="0" width="25" height="30"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
