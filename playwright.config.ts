@@ -53,7 +53,7 @@ export default defineConfig({
             '--disable-notifications',
             '--disable-blink-features=AutomationControlled'
           ],
-          headless: false
+          headless: true
         }},
     }
   ]
