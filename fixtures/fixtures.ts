@@ -1,7 +1,7 @@
 import { test as base, chromium, type BrowserContext } from '@playwright/test';
 import path from 'path';
 
-// fixture to install Virtru extension before test starts
+// fixture to install Virtru extension from downloaded Virtru extension before test starts
 export const test = base.extend<{
     context: BrowserContext;
     extensionId: string;
