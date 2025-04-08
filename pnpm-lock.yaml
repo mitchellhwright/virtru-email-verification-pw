@@ -14,6 +14,9 @@ importers:
       '@types/node':
         specifier: ^22.14.0
         version: 22.14.0
+      dotenv:
+        specifier: ^16.4.7
+        version: 16.4.7
 
 packages:
 
@@ -24,6 +27,10 @@ packages:
 
   '@types/node@22.14.0':
     resolution: {integrity: sha512-Kmpl+z84ILoG+3T/zQFyAJsU6EPTmOCj8/2+83fSN6djd6I4o7uOuGIH6vq3PrjY5BGitSbFuMN18j3iknubbA==}
+
+  dotenv@16.4.7:
+    resolution: {integrity: sha512-47qPchRCykZC03FhkYAhrvwU4xDBFIj1QPqaarj6mdM/hgUzfPHcpkHJOn3mJAufFeeAxAzeGsr5X0M4k6fLZQ==}
+    engines: {node: '>=12'}
 
   fsevents@2.3.2:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
@@ -52,6 +59,8 @@ snapshots:
   '@types/node@22.14.0':
     dependencies:
       undici-types: 6.21.0
+
+  dotenv@16.4.7: {}
 
   fsevents@2.3.2:
     optional: true

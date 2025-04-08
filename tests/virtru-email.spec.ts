@@ -1,60 +1,46 @@
 import { test, expect } from '../fixtures/fixtures';
+import { GoogleSignon } from '../pages/google-signon';
+import { Gmail } from '../pages/gmail'
+
+
+const emailAddress = process.env.EMAIL_ADDRESS || 'set EMAIL_ADDRESS in .env file';
+const googlePwd = process.env.GOOGLE_PWD || 'set GOOGLE_PWD in .env file';
+const googleName = process.env.GOOGLE_NAME || 'set GOOGLE_NAME in .env file';
 
 test('virtru email verification', async ({ page }) => {
-  test.slow();
-``
-  // show Virtru extension installation page
-  await page.waitForTimeout(2000);
+  // show Virtru extension installation page and allow time to install extension
+  await page.waitForTimeout(4000);
 
+  // login to Google test account
   await test.step('Navigate to Google login page', async () => {
-    await page.goto('https://accounts.google.com/signin');
+    const googleSignon = new GoogleSignon(page);
+    await googleSignon.goto();
+    await googleSignon.signIntoGoogle(emailAddress, googlePwd);
+    await googleSignon.checkWelcomePage(googleName);
   });
-  await page.bringToFront();
 
-  await page.fill('input[type="email"]', 'virtrumitch@gmail.com');
-  await page.click('button:has-text("Next")');
+  const gmail = new Gmail(page);
 
-  // Wait for the password field to be visible and enter the password
-  await page.waitForSelector('input[type="password"]', { state: 'visible' });
-  await page.fill('input[type="password"]', 'Test!234');
-  await page.click('button:has-text("Next")');
-
-  // Wait for navigation to complete
-  await page.waitForNavigation();
-
-  // You are now logged in
-  console.log('Logged in successfully!');
-  await page.goto('https://mail.google.com/');
-  await page.bringToFront();
-  await page.click('//button[text()="Activate"]');
-  await page.click('//button[text()="Done"]');
-
-  await page.bringToFront();
-
-  await test.step('Verify Gmail Page visibility', async () => {
+  await test.step('Verify Virtru Gmail Extension is active', async () => {
+    // Goto Gmail and activate Virtru extension
+    await gmail.goto();
+    await gmail.activateVirtruExtension();
     await expect(page.getByRole('link', { name: 'Gmail', exact: true })).toBeVisible();
   });
 
-  await page.click('//*[contains(text(),"Compose")]'); // Replace with the actual selector
+  const emailDate = Date.now();
+  const emailSubject = `Test Email ${emailDate}`;
+  const emailContent = `This is a test email written on: ${emailDate}`;
 
-  // 3. Fill in the Email Details
-  await page.click('//div[@aria-label="Virtru secure toggle"]')
-  await page.locator('input[aria-label="To recipients"]').fill('virtrumitch@gmail.com'); // Replace with the actual selector
-  const emailSubject = 'Test Email ' + Date.now();
-  await page.locator('input[aria-label="Subject"]').fill(emailSubject); // Replace with the actual selector
-
-  const emailContent = 'This is a test email on: ' + Date.now();
-  await page.locator('div[role="textbox"]').fill(emailContent); // Replace with the actual selector
-
-  // 4. Send the Email
-  await page.locator('//div[contains(@aria-label, "Send") and @role="button"]').first().click();
-  await page.click(`(//span[contains(text(), "${emailSubject}")])[2]`);
-  // await page.fill('input[aria-label="To recipients"]', 'virtrumitch@gmail.com');
-  // await page.waitForNavigation();
-
-  await test.step('Verify Email Content', async () => {
-    await expect(page.getByRole('listitem').getByText(emailContent)).toBeVisible();
+  await test.step('Compose email with Virtru encryption ON', async () => {
+    // Compose and Fill in the Email Details
+    await gmail.composeEmail(emailAddress, emailSubject, emailContent);
+    // Send Email
+    await gmail.sendEmail();
   });
-  // Close the browser
-  await page.close();
+
+  // Verify email content was decrypted and matches what was sent
+  await test.step('Verify Received Email Body is Decrypted', async () => {
+    await gmail.verifyDecryptedBody(emailSubject, emailContent);
+  });
 });
